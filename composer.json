@@ -1,34 +1,39 @@
 {
-    "name": "hashtag/universal-crud",
-    "description": "Generic Laravel CRUD + file upload API for any table.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-      {
-        "name": "Hemel Mridha",
-        "email": "youremail@example.com"
-      }
-    ],
-    "require": {
-      "php": ">=8.1",
-      "illuminate/support": "^10.0|^11.0",
-      "illuminate/routing": "^10.0|^11.0",
-      "illuminate/database": "^10.0|^11.0",
-      "illuminate/filesystem": "^10.0|^11.0"
-    },
-    "autoload": {
-      "psr-4": {
-        "Hashtag\\UniversalCrud\\": "src/"
-      }
-    },
-    "extra": {
-      "laravel": {
-        "providers": [
-          "Hashtag\\UniversalCrud\\UniversalCrudServiceProvider"
-        ]
-      }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
-  }
-  
+  "name": "mrorko840/universal-crud-package",
+  "description": "A generic CRUD + file upload API for any table in Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hemel Mridha",
+      "email": "hemel6850@example.com"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "crud",
+    "api",
+    "file upload",
+    "generic crud"
+  ],
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10.0|^11.0",
+    "illuminate/routing": "^10.0|^11.0",
+    "illuminate/database": "^10.0|^11.0",
+    "illuminate/filesystem": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hashtag\\UniversalCrud\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hashtag\\UniversalCrud\\UniversalCrudServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
