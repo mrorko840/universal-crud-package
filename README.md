@@ -62,9 +62,9 @@ php artisan vendor:publish --tag=universal-crud-config
 ```php
 return [
     'base_uri' => 'universal-crud',
-    'auth_middleware' => ['api', 'auth:sanctum'],
-    'allowed_tables' => ['users', 'posts', 'products'],
-    'hidden_columns' => ['password', 'remember_token'],
+    'auth_middleware' => ['api'],
+    'allowed_tables' => ['*'],
+    'hidden_columns' => [],
     'upload_disk' => 'public',
     'upload_base_path' => 'uploads',
 ];
