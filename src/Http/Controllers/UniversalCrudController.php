@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemel\UniversalCrud\Http\Controllers;
+namespace UniversalCrud\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
