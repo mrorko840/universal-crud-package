@@ -4,13 +4,13 @@ return [
 
     'base_uri' => 'universal-crud',
 
-    'auth_middleware' => ['api', 'auth:sanctum'],
+    'auth_middleware' => ['api'],
 
-    'allowed_tables' => ['users', 'posts', 'products'],
+    'allowed_tables' => ['*'], // all tables will be allowed   
 
-    'hidden_columns' => ['password', 'remember_token'],
+    'hidden_columns' => [], // all columns will be hidden
 
-    'upload_disk' => 'public',
+    'upload_disk' => 'public', // disk name
 
-    'upload_base_path' => 'uploads',
+    'upload_base_path' => 'uploads', // base path
 ];
